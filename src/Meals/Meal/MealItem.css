@@ -1,0 +1,16 @@
+.meal-desc {
+  font-style: italic;
+}
+.meal {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.meal-price {
+  color: #ff865e;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

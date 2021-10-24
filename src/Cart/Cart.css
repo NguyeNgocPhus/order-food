@@ -1,0 +1,32 @@
+.cart-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  padding-top: 10px;
+}
+.cart-info span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.cart-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 20px;
+}
+.btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 16px;
+}
+.btn-close {
+  color: #950101;
+  border: 2px solid #950101;
+}
+.btn-pay {
+  color: #fff;
+  background-color: #950101;
+}

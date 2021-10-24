@@ -1,0 +1,32 @@
+.formInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 20px;
+  margin-bottom: 10px;
+}
+.formInput input {
+  width: 3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 0.5rem;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+.form button {
+  background-color: #950101;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 20px;
+  border: none;
+}
+.inputTitle {
+  font-size: 20px;
+  font-weight: bold;
+}

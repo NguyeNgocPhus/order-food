@@ -1,0 +1,47 @@
+.cartButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f44336;
+  border-radius: 20px;
+  border: none;
+  gap: 0 15px;
+  padding: 10px 30px;
+}
+.cartButton--name {
+  color: #fff;
+}
+ion-icon {
+  color: #fff;
+  font-size: 25px;
+}
+.cartButton-amount {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #950101;
+  padding: 6px 18px;
+  border-radius: 15px;
+}
+.bump {
+  animation: bump 300ms ease-out;
+}
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
